@@ -26,7 +26,7 @@ const CatFoodMenu = () => {
       id: 2,
       name: "Delicious Tuna Treats",
       href: "#",
-      price: 9.99,
+      price: 2.99,
       imageSrc:
         "https://images.pexels.com/photos/19478187/pexels-photo-19478187/free-photo-of-strawberry-cake-on-a-plate.jpeg?auto=compress&cs=tinysrgb&w=300",
       imageAlt: "Tuna cat treats",
@@ -36,7 +36,7 @@ const CatFoodMenu = () => {
       id: 2,
       name: "Delicious Tuna Treats",
       href: "#",
-      price: 9.99,
+      price: 81.99,
       imageSrc:
         "https://images.pexels.com/photos/16039681/pexels-photo-16039681/free-photo-of-a-small-cat-eating-cat-food.png?auto=compress&cs=tinysrgb&w=300",
       imageAlt: "Tuna cat treats",
@@ -46,7 +46,7 @@ const CatFoodMenu = () => {
       id: 2,
       name: "Delicious Tuna Treats",
       href: "#",
-      price: 9.99,
+      price: 10.99,
       imageSrc:
         "https://images.pexels.com/photos/5847900/pexels-photo-5847900.jpeg?auto=compress&cs=tinysrgb&w=300",
       imageAlt: "Tuna cat treats",
@@ -67,7 +67,6 @@ const CatFoodMenu = () => {
 
     setProducts(updatedProducts);
 
-    // Add the product to the cart
     const cartItem = updatedProducts[productIndex];
     setCart((prevCart) => [...prevCart, cartItem]);
 
